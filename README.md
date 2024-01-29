@@ -1,21 +1,21 @@
 
-#SOCORRO – Seeking out corrosion (before it’s too late!)​
+**SOCORRO – Seeking out corrosion (before it’s too late!)​**
 
-##Aims 
+**Aims** 
 
-To produce a publicly available algorithm for predicting corrosion risk and rate for:​
+-To produce a publicly available algorithm for predicting corrosion risk and rate for.
 
-Improved corrosion management.​
+-Improved corrosion management.
 
-Cost and safety control in marine installations.​
+-Cost and safety control in marine installations.​
 
-Improved renewable energy infrastructure.​
+-Improved renewable energy infrastructure.​
 
-Improved water quality​
+-Improved water quality​.
 
-Integrated water management.​
+-Integrated water management.​
 
-​##Objectives
+​**Objectives**
 
 Do MIC mechanisms identified at UK sites operate elsewhere?​
 
