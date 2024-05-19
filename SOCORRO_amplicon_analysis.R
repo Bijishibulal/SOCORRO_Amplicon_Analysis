@@ -275,6 +275,12 @@ ggplot(filt_major_taxa_proportions_sw_only_tab_for_plot.g, aes(Major_Taxa, Propo
 Anova_result <- anova(betadisper(euc_dist, sample_info_tab$Source))
 Anova_result
 write.table(Anova_result, "Anova_result.xls", quote=FALSE, sep="\t", col.names=NA)
+Sed_sample_IDs <- row.names(sample_info_tab1)[sample_info_tab$type == "Sediment"]
+Wat_sample_IDs <- row.names(sample_info_tab1)[sample_info_tab$type == "Seawater"]
+Sed_euc_dist <- dist(t(vst_trans_count_tab[ , colnames(vst_trans_count_tab) %in% Sed_sample_IDs]))
+Sed_sample_info_tab <- sample_info_tab1[row.names(sample_info_tab1) %in% Sed_sample_IDs, ]
+anova(betadisper(Sed_euc_dist, Sed_sample_info_tab$season))
+adonis(Sed_euc_dist~Sed_sample_info_tab$season)
 
 
 seqtab.nochim
