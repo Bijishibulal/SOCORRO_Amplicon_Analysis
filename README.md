@@ -3,7 +3,7 @@
 
 **Aims** 
 
--To produce a publicly available algorithm for predicting corrosion risk and rate for.
+-To produce a publicly available algorithm for predicting corrosion risk and rate.
 
 -Improved corrosion management.
 
